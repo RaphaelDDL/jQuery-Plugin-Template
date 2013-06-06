@@ -1,25 +1,42 @@
 /* ------------------------
- * jQuery Plugin Template v1.0
- * https://github.com/RaphaelDDL/jQuery-Plugin-Template
- *
- * Copyright (c) 2013 Raphael "DDL" Oliveira
+About the Template:
+ jQuery Plugin Template v1.0
+ https://github.com/RaphaelDDL/jQuery-Plugin-Template
+ Copyright (c) 2013 Raphael "DDL" Oliveira
+ 
+ Change the [[TEXTS]] to your liking.
+ Also read the comments to know more
 ------------------------ */
+
+
 /*
  * jQuery [[YOUR PLUGIN NAME]] v[[VERSION]]
  * [[URL TO PLUGIN WITH HTTP(S)]]
- *
  * Copyright (c) [[YEAR MADE]] [[AUTHOR NAME]]
  *
  * ===============
  * Basic Usage:
+ * 
  * [[EXAMPLE FUNCTION, E.G.:]]
  * $(element).pluginName({
  *   	some_option1: 'some value',
-		some_option2: 'some other value'
+ *	some_option2: 'some other value'
  * });
  *
  * ===============
- * [[SOME LICENSE STUFF, E.G.:]]
+ * LICENSE:
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining
+ * a copy of this software and associated documentation files (the
+ * "Software"), to deal in the Software without restriction, including
+ * without limitation the rights to use, copy, modify, merge, publish,
+ * distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to
+ * the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ * 
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
  * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
  * OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
