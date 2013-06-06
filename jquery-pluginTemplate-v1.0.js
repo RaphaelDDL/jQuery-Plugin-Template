@@ -5,15 +5,19 @@ About the Template:
  Copyright (c) 2013 Raphael "DDL" Oliveira
  
  Change the [[TEXTS]] to your liking.
- Also read the comments to know more
+ Also read the comments to know more.
+ 
+ The name, url and copyright have a ! on it's block
+ to be kept when minified
 ------------------------ */
 
 
-/*
+/*!
  * jQuery [[YOUR PLUGIN NAME]] v[[VERSION]]
  * [[URL TO PLUGIN WITH HTTP(S)]]
  * Copyright (c) [[YEAR MADE]] [[AUTHOR NAME]]
- *
+ */
+ /*
  * ===============
  * Basic Usage:
  * 
