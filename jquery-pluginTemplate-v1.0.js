@@ -52,6 +52,7 @@ About the Template:
  * ===============
  */
  ;(function($, window, document, undefined) {
+ 	"use strict";
 	$.fn.extend({
 		/* ------------------------
 		>	CHANGE `pluginName` TO THE
@@ -60,24 +61,24 @@ About the Template:
 			$(element).pluginName({options});
 		------------------------ */
 		pluginName: function(options) {
-
+			var defaults, jOptions;
 			/* ------------------------
 			>	DEFINE THE DEFAULT OPTIONS
 				FOR YOUR PLUGIN (WHEN USER
 				DO NOT PASS ANY/SOME WHEN
 				CALLING YOUR PLUGIN)
 			------------------------ */
-			var defaults = {
+			defaults = {
 				some_option1: 'some value',
 				some_option2: 'some other value'
-			}
-			var options = $.extend(defaults, options);
+			};
+			jOptions = $.extend(defaults, options);
 
 
 			/* FOR EACH `$(element)` FOUND, APPLY THE PLUGIN  */
 			return this.each(function() {
-				var o = options;
-				var that = $(this);
+				var o = jOptions;
+				var $that = $(this);
 				/* ------------------------
 				>	RETRIEVING OPTION VALUES:
 					`o.some_option1`,
@@ -86,7 +87,7 @@ About the Template:
 					DEFAULTS ONES
 
 				>	THAT:
-					`that` IS THE `$(element)`
+					`$that` IS THE `$(element)`
 					WHICH THE PLUGIN WAS CALLED ON
 				---------------------------
 				>	YOUR CODE BELOW
